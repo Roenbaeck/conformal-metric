@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conformal-metric"
+version = "0.1.0"
+description = "Conformal metric inverse design via arithmetic-mean edge rule"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Lars Rönnbäck"}]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+]
+
+[project.urls]
+Repository = "https://github.com/Roenbaeck/conformal-metric"
